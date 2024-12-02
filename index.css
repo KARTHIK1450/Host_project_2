@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eeee79; 
+    color: #aba0a0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game {
+    text-align: center;
+    background-color: #ffffff; 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    width: 400px;  
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;  
+    margin-bottom: 20px;  
+}
+
+.input-section {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    width: 60px;  
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;  
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #467a46;  
+}
+
+button {
+    background-color: #467a76;
+    color: #ffffff;  
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+}
+
+p{
+    margin:10px 0;
+}
+#message{
+    font-size: 1rem;
+    font-weight: bold;
+}
